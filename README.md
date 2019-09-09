@@ -35,3 +35,15 @@ You can find the example of image with 5000*5000 pixels in folder data/splited_s
 ### Model
 ![img/DA-Refinenet.png](img/DA-Refinenet.png)
 We use this dual input segmentation network based on attention for our work. Other details will be detailed in the paper.
+### Training
+We use the SGD optimizer to train our model. Since
+imagenet pre-training exists in the encoding stage, we set
+different hyperparameters for the encoder and decoder. The
+encoder parameter suffix is ENC and the decoder suffix is
+DEC. At the same time, we divide the training into three steps,
+and each step have 25 epochs. The initial learning rate of each
+step are LRENC = [5e-4; 2.5e-4; 1e-4];LRDEC =
+[5e-3; 2.5e-3; 1e-3], the Momentum is set to 0.9 and WD
+is 1e-5. Batch size is 12.All code is written by Pytorch. And
+we use four GTX1080Ti for our training.
+
