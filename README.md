@@ -30,4 +30,6 @@ and invasive carcinoma regions.
 
 ### Data pre-processing
 The whole slide image is very big, so we need to use sliding windows. Firstly, we use the sliding window to cut the whole slide image into 5000*5000 pixel images which provide large-scale coarse contextual information. Secondly, we use the sliding window with a size of 1000*1000 and a step size of 500 pixels to cut the 5000*5000 pixel images imto 1000*1000 pixel images which provide small-scale fine localited information. Thirdly, we resize both images to 500*500 pixels. Finally, we use data screening to balance the four types of data to a certain extent.
+### Model
+![img/DA-Refinenet.png](img/DA-Refinenet.png)
 
