@@ -19,4 +19,13 @@ and attention: DA-RefineNet exhibits a dramatic performance
 ---
 ## Overview
 ### Data
-The original dataset is from [ICIAR2018 challenge](https://iciar2018-challenge.grand-challenge.org/)
+The original dataset is from [ICIAR2018 challenge](https://iciar2018-challenge.grand-challenge.org/).The
+dataset is composed of Hematoxylin and eosin (H&E), stained
+breast histology microscopy, and whole-slide images. we only use the whole slide image. This part contains 10 whole slide images. Whole-slide images are
+high resolution images containing the entire sampled tissue.
+In this sense, microscopy images just served as details of
+the whole-slide images. Because of that, each whole-slide
+image could have multiple normal, benign, in situ carcinoma
+and invasive carcinoma regions.
+
+### Data pre-processing
