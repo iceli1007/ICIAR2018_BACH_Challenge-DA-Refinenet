@@ -1943,8 +1943,4 @@ def rf_lw152(num_classes, imagenet=False, pretrained=True, **kwargs):
     
     
     return model
-#refinenet101:0.446
-#refinenet152:0.462
-#CA-resnet_101_lw:0.444
-#resnet_101_lw:0.438
-#refinenet152_CA::0.464
+
