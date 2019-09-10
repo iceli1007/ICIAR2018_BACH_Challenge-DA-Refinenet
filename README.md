@@ -47,3 +47,13 @@ step are LRENC = [5e-4; 2.5e-4; 1e-4];LRDEC =
 is 1e-5. Batch size is 12.All code is written by Pytorch. And
 we use four GTX1080Ti for our training.
 
+
+---
+
+## How to use
+
+### Run ./train/ICIAR.sh
+You can use three resnet for this assignment by changing ICIAR.sh
+
+
+
