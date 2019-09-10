@@ -55,9 +55,9 @@ we use four GTX1080Ti for our training.
 ### Run ./train/ICIAR.sh
 You can use three resnet for this assignment by changing ICIAR.sh
 
-###Results
+### Results
 
-![img/result.png](img/result.png)
+
 
 
 
