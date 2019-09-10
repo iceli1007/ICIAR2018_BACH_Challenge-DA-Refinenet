@@ -34,7 +34,7 @@ The whole slide image is very big, so we need to use sliding windows. Firstly, w
 You can find the example of image with 5000*5000 pixels in folder data/splited_svs, its corresponding mask can be found in folder data/splited_xml. You can find the example of image with 1000*1000 pixels in folder data/splited_svs_little, its corresponding "RGB" mask and "P" mask can be found in folder data/splited_xml_little and data/splited_xml_little_P respectively. You can find the example of image with 500*500 pixels resized by image with 5000*5000 pixels in folder data/splited_svs_resize. The final lists of train and test images can be found in folder data/train.txt and data/test.txt. 
 ### Model
 ![img/DA-Refinenet.png](img/DA-Refinenet.png)
-We use this dual input segmentation network based on attention for our work. Other details will be detailed in the paper.
+We use this dual input segmentation network based on attention for our work. Other details will be displayed in the paper.
 ### Training
 We use the SGD optimizer to train our model. Since
 imagenet pre-training exists in the encoding stage, we set
