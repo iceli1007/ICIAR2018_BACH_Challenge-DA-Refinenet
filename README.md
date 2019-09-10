@@ -58,6 +58,15 @@ You can use three resnet for this assignment by changing ICIAR.sh
 ### Results
 ![img/result.png](img/result.png)
 
+### Acknowledgment
+
+We first thank the data provider, the organizer of the
+ICIAR2018 Grand Challenge. Secondly, we would like to
+thank the university of Adelaide and Australian Centre for
+Robotic Vision (ACRV) for the code of Refinenet, the project
+address: https://github.com/DrSleep/refinenet-pytorch.
+
+
 
 
 
